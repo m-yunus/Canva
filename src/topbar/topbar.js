@@ -102,7 +102,7 @@ export default observer(({ store }) => {
             </>
           )} */}
 
-          <Button
+          {/* <Button
             intent="primary"
             icon={<BisDiamond className="bp4-icon" />}
             style={{ backgroundColor: 'rgba(219, 30, 186, 1)' }}
@@ -114,15 +114,15 @@ export default observer(({ store }) => {
             }}
           >
             Chip in!
-          </Button>
-          <SubscriptionModal
+          </Button> */}
+          {/* <SubscriptionModal
             isOpen={modalVisible}
             onClose={() => {
               setModalVisible(false);
             }}
             store={store}
-          />
-          <AnchorButton
+          /> */}
+          {/* <AnchorButton
             href="https://polotno.com"
             target="_blank"
             minimal
@@ -131,9 +131,9 @@ export default observer(({ store }) => {
             }
           >
             API
-          </AnchorButton>
+          </AnchorButton> */}
 
-          <AnchorButton
+          {/* <AnchorButton
             minimal
             href="https://discord.gg/W2VeKgsr9J"
             target="_blank"
@@ -150,18 +150,18 @@ export default observer(({ store }) => {
             icon={
               <FaGithub className="bp4-icon" style={{ fontSize: '20px' }} />
             }
-          ></AnchorButton>
-          <AnchorButton
+          ></AnchorButton> */}
+          {/* <AnchorButton
             minimal
             href="https://twitter.com/lavrton"
             target="_blank"
             icon={
               <FaTwitter className="bp4-icon" style={{ fontSize: '20px' }} />
             }
-          ></AnchorButton>
+          ></AnchorButton> */}
           <NavbarDivider />
           <DownloadButton store={store} />
-          <UserMenu store={store} project={project} />
+          {/* <UserMenu store={store} project={project} /> */}
           {/* <NavbarHeading>Polotno Studio</NavbarHeading> */}
         </Navbar.Group>
       </NavInner>
